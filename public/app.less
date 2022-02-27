@@ -8,7 +8,7 @@
 body {
   background: @grey-0;
   // font-family: sans-serif;
-  font-family: 'Atkinson Hyperlegible', sans-serif!important;
+  font-family: 'Atkinson Hyperlegible', sans-serif !important;
 }
 
 main {
@@ -19,25 +19,26 @@ main {
   grid-row-gap: 0px;
 }
 
-.preview, .options {
+.preview,
+.options {
   img.main {
-    width:100%;
-    -webkit-box-shadow: 0px 0px 7px 0px #000000; 
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 7px 0px #000000;
     box-shadow: 0px 0px 7px 0px #000000;
   }
   code {
     background: lightgrey;
-    width:calc(100% - 20px);
+    width: calc(100% - 20px);
     margin-top: 10px;
     padding: 10px;
-    display:block;
+    display: block;
   }
   input {
-    &[type=text] {
+    &[type='text'] {
       box-sizing: border-box;
-      display:block;
-      width:100%;
-      padding:10px;
+      display: block;
+      width: 100%;
+      padding: 10px;
       border: 2px solid @blue-5;
       border-radius: 5px;
       background: @grey-0;
@@ -46,9 +47,9 @@ main {
     font-family: 'Atkinson Hyperlegible', sans-serif;
   }
   img.selectable {
-    display:inline-block;
-    width:150px;
-    cursor:pointer;
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
     &.active {
       outline: 2px solid @blue-5;
     }
@@ -56,16 +57,16 @@ main {
   .fieldset {
     padding-top: 10px;
     label {
-      display:block;
+      display: block;
     }
   }
   select {
-    display:inline-block;
-    padding:10px;
+    display: inline-block;
+    padding: 10px;
     border: 2px solid @blue-5;
-    width: 100%!important;
-    border-radius:5px;
-    margin-bottom:5px;
+    width: 100% !important;
+    border-radius: 5px;
+    margin-bottom: 5px;
   }
   table {
     border: 2px solid black;

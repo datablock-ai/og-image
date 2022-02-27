@@ -27,8 +27,8 @@ main {
 .options input {
   font-family: 'Atkinson Hyperlegible', sans-serif;
 }
-.preview input[type=text],
-.options input[type=text] {
+.preview input[type='text'],
+.options input[type='text'] {
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -61,7 +61,7 @@ main {
   display: inline-block;
   padding: 10px;
   border: 2px solid #1c5eff;
-  width: 100%!important;
+  width: 100% !important;
   border-radius: 5px;
   margin-bottom: 5px;
 }
